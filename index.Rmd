@@ -4,9 +4,30 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
-# This is Jeff's awesome website
+# This loads a picture from the web
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+# This loads a local picture
+
+<img src="images/weird.jpg" style="width:75%">
+
+# Add Code Chunks
+
+```{r}
+rnorm(10)
+```
+
+
+# Create links 
+
+* [Link Name For a Website](https://google.com)
+* [Wikipedia](https://wikipedia.com)
+
+## Link to page within the site
+
+[About me](about.html)
+
+## 
